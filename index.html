@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Preeti's Baby Shower 🌸 — Khokhariya Family</title>
+<meta name="description" content="You are cordially invited to Preeti's Baby Shower · Zeel & Preeti Khokhariya · Sunday July 5, 2026 · 4:30 PM · Hawthorn Estates, East Selkirk MB">
+<meta property="og:title" content="🌸 Preeti's Baby Shower — You're Invited!">
+<meta property="og:description" content="Join Zeel & Preeti Khokhariya to celebrate · Sunday July 5, 2026 · 4:30 PM · Hawthorn Estates, East Selkirk MB">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#d9848a">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Petit+Formal+Script&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+<style>
+/* ══ RESET ══ */
+*, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+:root {
+  --rose:#d9848a; --sage:#a8b89a; --gold:#c9a96e;
+  --deep:#4a3728; --cream:#fdf6ef;
+}
+html, body {
+  width:100%; height:100%; overflow:hidden;
+  font-family:'Jost',sans-serif; background:#fefaf6;
+}
+
+/* ══ WRAPPER ══ */
+#wrapper {
+  display:flex; flex-direction:column;
+  width:100%; height:100dvh;
+  overflow:hidden;
+}
+
+/* ══ STORY HEADER ══ */
+.story-header {
+  display:flex; align-items:flex-start; gap:6px;
+  padding:10px 14px 8px;
+  background:rgba(253,246,239,.97);
+  border-bottom:1px solid rgba(201,169,110,.2);
+  flex-shrink:0; position:relative; z-index:10;
+}
+.story-bar { flex:1; display:flex; flex-direction:column; align-items:center; gap:4px; }
+.story-track {
+  width:100%; height:2.5px; border-radius:3px;
+  background:rgba(201,169,110,.22); position:relative; overflow:hidden;
+}
+.story-fill {
+  position:absolute; top:0; left:0; height:100%; width:0%;
+  border-radius:3px;
+  background:linear-gradient(90deg,var(--rose),var(--gold));
+  box-shadow:0 0 6px rgba(201,169,110,.4);
+  transition:none;
+}
+.story-lbl {
+  font-family:'Jost',sans-serif; font-weight:200;
+  font-size:clamp(.32rem,.75vw,.42rem);
+  letter-spacing:.2em; text-transform:uppercase;
+  color:rgba(90,64,53,.38); white-space:nowrap;
+}
+
+/* ══ SCENE ══ */
+#scene {
+  position:relative; width:100%; flex:1; min-height:0; overflow:hidden;
+}
+
+/* ══ PETALS ══ */
+.petals { position:absolute; inset:0; overflow:hidden; pointer-events:none; z-index:1; }
+.p { position:absolute; top:-20px; opacity:0; animation:fall linear infinite; }
+@keyframes fall {
+  0%   { transform:translateY(0) rotate(0deg); opacity:0; }
+  5%   { opacity:.6; } 90%{ opacity:.4; }
+  100% { transform:translateY(105vh) rotate(400deg); opacity:0; }
+}
+.p:nth-child(1) {left:4%;  width:9px;  height:9px;  border-radius:50% 0 50% 0; background:#f2c4c4; animation-duration:10s; animation-delay:0s}
+.p:nth-child(2) {left:9%;  width:7px;  height:7px;  border-radius:50%;          background:#d9848a; animation-duration:13s; animation-delay:2s}
+.p:nth-child(3) {left:16%; width:12px; height:12px; border-radius:50% 0 50% 0; background:#e8b4b8; animation-duration:9s;  animation-delay:5s}
+.p:nth-child(4) {left:23%; width:8px;  height:8px;  border-radius:50%;          background:#f9dfe0; animation-duration:12s; animation-delay:1s}
+.p:nth-child(5) {left:30%; width:10px; height:10px; border-radius:50% 0 50% 0; background:#a8b89a; animation-duration:15s; animation-delay:7s}
+.p:nth-child(6) {left:38%; width:6px;  height:6px;  border-radius:50%;          background:#c4d4b8; animation-duration:11s; animation-delay:3s}
+.p:nth-child(7) {left:45%; width:11px; height:11px; border-radius:50% 0 50% 0; background:#f2c4c4; animation-duration:14s; animation-delay:9s}
+.p:nth-child(8) {left:52%; width:7px;  height:7px;  border-radius:50%;          background:#d9848a; animation-duration:10s; animation-delay:4s}
+.p:nth-child(9) {left:60%; width:10px; height:10px; border-radius:50% 0 50% 0; background:#e8b4b8; animation-duration:13s; animation-delay:6s}
+.p:nth-child(10){left:67%; width:8px;  height:8px;  border-radius:50%;          background:#f9dfe0; animation-duration:16s; animation-delay:.5s}
+.p:nth-child(11){left:74%; width:10px; height:10px; border-radius:50% 0 50% 0; background:#a8b89a; animation-duration:12s; animation-delay:8s}
+.p:nth-child(12){left:82%; width:6px;  height:6px;  border-radius:50%;          background:#c4d4b8; animation-duration:9s;  animation-delay:2.5s}
+.p:nth-child(13){left:88%; width:12px; height:12px; border-radius:50% 0 50% 0; background:#f2c4c4; animation-duration:11s; animation-delay:10s}
+.p:nth-child(14){left:95%; width:9px;  height:9px;  border-radius:50%;          background:#d9848a; animation-duration:14s; animation-delay:1.5s}
+.p:nth-child(15){left:6%;  width:7px;  height:7px;  border-radius:50% 0 50% 0; background:#e8b4b8; animation-duration:17s; animation-delay:11s}
+.p:nth-child(16){left:19%; width:10px; height:10px; border-radius:50%;          background:#f9dfe0; animation-duration:10s; animation-delay:3.5s}
+.p:nth-child(17){left:34%; width:8px;  height:8px;  border-radius:50% 0 50% 0; background:#a8b89a; animation-duration:13s; animation-delay:13s}
+.p:nth-child(18){left:48%; width:10px; height:10px; border-radius:50%;          background:#c4d4b8; animation-duration:15s; animation-delay:.8s}
+.p:nth-child(19){left:57%; width:6px;  height:6px;  border-radius:50% 0 50% 0; background:#f2c4c4; animation-duration:12s; animation-delay:5.5s}
+.p:nth-child(20){left:71%; width:11px; height:11px; border-radius:50%;          background:#d9848a; animation-duration:9s;  animation-delay:7.5s}
+.p:nth-child(21){left:79%; width:7px;  height:7px;  border-radius:50% 0 50% 0; background:#e8b4b8; animation-duration:16s; animation-delay:12s}
+.p:nth-child(22){left:91%; width:9px;  height:9px;  border-radius:50%;          background:#f9dfe0; animation-duration:11s; animation-delay:4.5s}
+.p:nth-child(23){left:26%; width:10px; height:10px; border-radius:50% 0 50% 0; background:#a8b89a; animation-duration:14s; animation-delay:9.5s}
+.p:nth-child(24){left:63%; width:8px;  height:8px;  border-radius:50%;          background:#c4d4b8; animation-duration:10s; animation-delay:6.5s}
+
+/* ══ SPARKLES ══ */
+.sparkles { position:absolute; inset:0; pointer-events:none; z-index:1; }
+.sk {
+  position:absolute; width:7px; height:7px; background:var(--gold);
+  clip-path:polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%);
+  animation:twinkle ease-in-out infinite;
+}
+@keyframes twinkle { 0%,100%{opacity:0;transform:scale(0) rotate(0deg)} 50%{opacity:.9;transform:scale(1) rotate(20deg)} }
+.sk:nth-child(1) {top:8%;  left:12%; animation-duration:2.2s; animation-delay:0s;   width:9px;  height:9px}
+.sk:nth-child(2) {top:12%; left:82%; animation-duration:3.1s; animation-delay:1.1s}
+.sk:nth-child(3) {top:22%; left:6%;  animation-duration:2.5s; animation-delay:0.5s; width:6px;  height:6px}
+.sk:nth-child(4) {top:18%; left:91%; animation-duration:1.9s; animation-delay:1.8s; width:10px; height:10px}
+.sk:nth-child(5) {top:35%; left:4%;  animation-duration:2.8s; animation-delay:0.3s; width:5px;  height:5px}
+.sk:nth-child(6) {top:40%; left:94%; animation-duration:3.3s; animation-delay:2.2s}
+.sk:nth-child(7) {top:55%; left:7%;  animation-duration:2.1s; animation-delay:0.9s; width:9px;  height:9px}
+.sk:nth-child(8) {top:60%; left:90%; animation-duration:2.7s; animation-delay:1.5s; width:5px;  height:5px}
+.sk:nth-child(9) {top:72%; left:15%; animation-duration:3.0s; animation-delay:0.7s}
+.sk:nth-child(10){top:75%; left:85%; animation-duration:2.4s; animation-delay:2.8s; width:10px; height:10px}
+.sk:nth-child(11){top:85%; left:20%; animation-duration:2.6s; animation-delay:1.3s; width:5px;  height:5px}
+.sk:nth-child(12){top:82%; left:78%; animation-duration:3.2s; animation-delay:0.2s}
+
+/* ══ CORNER FLORALS ══ */
+.floral {position:absolute;font-size:clamp(1.5rem,4vw,2.5rem);opacity:.55;pointer-events:none;z-index:2;}
+.fl-tl {top:10px;  left:14px;}
+.fl-tr {top:10px;  right:14px;}
+.fl-bl {bottom:14px; left:14px;}
+.fl-br {bottom:14px; right:14px;}
+@keyframes swayA {0%,100%{transform:rotate(-3deg)}  50%{transform:rotate(3deg)}}
+@keyframes swayB {0%,100%{transform:scaleY(-1) rotate(-3deg)} 50%{transform:scaleY(-1) rotate(3deg)}}
+.fl-tl { animation:swayA 6s ease-in-out infinite; }
+.fl-tr { animation:swayA 6s ease-in-out infinite; transform:scaleX(-1); }
+.fl-bl { animation:swayB 6s ease-in-out infinite; }
+.fl-br { animation:swayB 6s ease-in-out infinite; }
+
+/* ══ BG ══ */
+.bg {
+  position:absolute; inset:0; pointer-events:none;
+  background:radial-gradient(ellipse 80% 70% at 50% 40%,#fde9e0 0%,#fdf6ef 60%,#e8ede3 100%);
+  z-index:0;
+}
+
+/* ══ SLIDES ══ */
+.slide {
+  position:absolute; inset:0; z-index:3;
+  display:flex; flex-direction:column;
+  align-items:center; justify-content:flex-start;
+  padding: clamp(12px,3vh,28px) clamp(10px,3vw,20px) 60px;
+  overflow-y:auto; overflow-x:hidden;
+  -webkit-overflow-scrolling:touch;
+  opacity:0; pointer-events:none;
+  transition:opacity .35s ease;
+}
+.slide.active {
+  opacity:1; pointer-events:auto;
+}
+
+/* ══ SHARED KEYFRAMES ══ */
+@keyframes fadeUp  { from{opacity:0;transform:translateY(14px)} to{opacity:1;transform:translateY(0)} }
+@keyframes scaleIn { from{opacity:0;transform:scaleX(0)}        to{opacity:1;transform:scaleX(1)} }
+
+/* ══ SLIDE 1 — INVITATION ══ */
+.arch       {position:absolute;top:-8px;left:50%;transform:translateX(-50%);width:min(520px,88vw);height:62%;border:1.5px solid rgba(201,169,110,.35);border-bottom:none;border-radius:50% 50% 0 0/60% 60% 0 0;pointer-events:none;z-index:0;}
+.arch-inner {position:absolute;top:12px;left:50%;transform:translateX(-50%);width:min(480px,82vw);height:calc(62% - 12px);border:1px solid rgba(201,169,110,.18);border-bottom:none;border-radius:50% 50% 0 0/60% 60% 0 0;pointer-events:none;}
+#s1 .tag    { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.55em; font-size:clamp(.5rem,1.3vw,.68rem); color:var(--rose); text-transform:uppercase; margin-bottom:1rem; }
+#s1 .headline { font-family:'Petit Formal Script',cursive; font-size:clamp(2.8rem,8.5vw,5.8rem); color:var(--deep); line-height:1.05; text-align:center; }
+#s1 .name   { font-family:'Cormorant Garamond',serif; font-size:clamp(1.2rem,4vw,2.5rem); font-style:italic; color:var(--gold); margin-top:.4rem; }
+#s1 .divider{ width:120px; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:1.1rem auto; }
+#s1 .parents{ display:flex; flex-direction:column; align-items:center; gap:.3rem; margin-bottom:.5rem; }
+#s1 .p-label{ font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.4em; font-size:clamp(.46rem,1.1vw,.62rem); color:var(--rose); text-transform:uppercase; }
+#s1 .p-names{ font-family:'Cormorant Garamond',serif; font-size:clamp(1.05rem,2.8vw,1.7rem); color:var(--deep); font-style:italic; }
+#s1 .mini-rule { width:70px; height:1px; background:linear-gradient(90deg,transparent,var(--gold),transparent); margin:.45rem auto .65rem; }
+#s1 .venue  { display:flex; flex-direction:column; align-items:center; gap:.32rem; }
+#s1 .v-icon { font-size:1.15rem; }
+#s1 .v-label{ font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.38em; font-size:clamp(.46rem,1.1vw,.62rem); color:var(--sage); text-transform:uppercase; }
+#s1 .v-name { font-family:'Cormorant Garamond',serif; font-size:clamp(1rem,2.6vw,1.45rem); color:var(--deep); font-style:italic; }
+#s1 .v-date { font-family:'Jost',sans-serif; font-weight:300; letter-spacing:.22em; font-size:clamp(.58rem,1.4vw,.78rem); color:var(--rose); text-transform:uppercase; margin-top:.25rem; }
+
+/* slide 1 entry animations (triggered via .s-entered class) */
+#s1.s-entered .tag       { animation:fadeUp .8s ease 0.1s both; }
+#s1.s-entered .headline  { animation:fadeUp 1s  ease 0.3s both; }
+#s1.s-entered .name      { animation:fadeUp .9s ease 0.6s both; }
+#s1.s-entered .divider   { animation:scaleIn .8s ease 0.9s both; }
+#s1.s-entered .parents   { animation:fadeUp .8s ease 1.1s both; }
+#s1.s-entered .mini-rule { animation:scaleIn .7s ease 1.3s both; }
+#s1.s-entered .venue     { animation:fadeUp .8s ease 1.5s both; }
+#s1.s-entered .map-s1    { animation:fadeUp .8s ease 1.8s both; }
+@keyframes heartbeat {0%,100%{transform:scale(1)} 14%{transform:scale(1.06)} 28%{transform:scale(1)} 42%{transform:scale(1.04)} 56%{transform:scale(1)}}
+#s1.s-entered .name { animation:fadeUp .9s ease 0.6s both, heartbeat 2.4s ease-in-out infinite 2s; }
+
+/* ══ SLIDE 2 — BLESSING ══ */
+#s2 .card {
+  position:relative; max-width:min(600px,88vw); text-align:center;
+  padding:clamp(1.6rem,4vw,2.8rem) clamp(1.4rem,5vw,3.2rem);
+}
+#s2 .card::before,#s2 .card::after { content:''; position:absolute; border:1px solid rgba(201,169,110,.28); border-radius:6px; }
+#s2 .card::before { inset:0;  animation:borderShimmer 3s ease-in-out infinite; }
+#s2 .card::after  { inset:8px; border-color:rgba(201,169,110,.12); }
+@keyframes borderShimmer { 0%,100%{opacity:.5} 50%{opacity:1} }
+#s2 .wtag   { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.5em; font-size:clamp(.48rem,1.2vw,.64rem); color:var(--rose); text-transform:uppercase; margin-bottom:.9rem; }
+#s2 .wtitle { font-family:'Petit Formal Script',cursive; font-size:clamp(1.9rem,6vw,3.6rem); color:var(--deep); margin-bottom:1.1rem; }
+#s2 .wtext  { font-family:'Cormorant Garamond',serif; font-size:clamp(.92rem,2.2vw,1.15rem); line-height:1.85; color:#5a4035; font-style:italic; }
+#s2 .wtext em { font-style:normal; color:var(--rose); }
+#s2 .orn    { font-size:1.35rem; display:block; margin:1.1rem auto .2rem; }
+#s2 .signed { font-family:'Petit Formal Script',cursive; font-size:clamp(1.15rem,3vw,1.8rem); color:var(--gold); margin-top:.5rem; }
+
+#s2.s-entered .wtag   { animation:fadeUp .6s ease 0.1s both; }
+#s2.s-entered .wtitle { animation:fadeUp .7s ease 0.25s both; }
+#s2.s-entered .wtext  { animation:fadeUp .8s ease 0.4s both; }
+#s2.s-entered .orn    { animation:fadeUp .6s ease 0.7s both; }
+#s2.s-entered .signed { animation:fadeUp .6s ease 0.9s both; }
+
+/* ══ SLIDE 3 — BIG DAY ══ */
+#s3 { background:radial-gradient(ellipse 80% 70% at 50% 50%,#4a3728 0%,#2e1f14 100%); }
+.bokeh { position:absolute; inset:0; pointer-events:none; overflow:hidden; z-index:0; }
+.bk { position:absolute; border-radius:50%; background:radial-gradient(circle,rgba(201,169,110,.3) 0%,transparent 70%); animation:bokehFloat ease-in-out infinite; }
+@keyframes bokehFloat { 0%,100%{transform:translateY(0) scale(1);opacity:.35} 50%{transform:translateY(-16px) scale(1.1);opacity:.7} }
+.bk:nth-child(1){width:70px;height:70px;top:8%;  left:6%;  animation-duration:5s;animation-delay:0s}
+.bk:nth-child(2){width:45px;height:45px;top:18%; left:78%; animation-duration:7s;animation-delay:1s}
+.bk:nth-child(3){width:90px;height:90px;top:55%; left:4%;  animation-duration:6s;animation-delay:2s}
+.bk:nth-child(4){width:55px;height:55px;top:65%; left:83%; animation-duration:8s;animation-delay:.5s}
+.bk:nth-child(5){width:35px;height:35px;top:38%; left:88%; animation-duration:5s;animation-delay:3s}
+.bk:nth-child(6){width:65px;height:65px;top:78%; left:48%; animation-duration:9s;animation-delay:1.5s}
+
+#s3 .kk-welcome { display:flex; flex-direction:column; align-items:center; gap:.18rem; margin-bottom:.6rem; }
+#s3 .kk-family  { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.55em; font-size:clamp(.44rem,1.1vw,.62rem); color:rgba(201,169,110,.6); text-transform:uppercase; }
+#s3 .kk-verb    {
+  font-family:'Petit Formal Script',cursive; font-size:clamp(2rem,6vw,4rem);
+  background:linear-gradient(135deg,#b8882a 0%,var(--gold) 35%,#ffe9a0 55%,var(--gold) 75%,#b8882a 100%);
+  -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;
+  line-height:1.1; text-align:center;
+}
+#s3 .kk-rule    { width:130px; height:1px; margin-top:.35rem; background:linear-gradient(90deg,transparent,rgba(201,169,110,.5),transparent); }
+#s3 .s-tag      { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.55em; font-size:clamp(.42rem,1vw,.58rem); color:rgba(201,169,110,.6); text-transform:uppercase; margin-bottom:.3rem; }
+#s3 .s-title    { font-family:'Petit Formal Script',cursive; font-size:clamp(1.7rem,5.5vw,3.5rem); color:#fdf6ef; line-height:1.1; text-align:center; }
+#s3 .s-rule     { width:90px; height:1px; background:linear-gradient(90deg,transparent,rgba(201,169,110,.5),transparent); margin:.5rem auto; }
+#s3 .date-block { display:flex; flex-direction:column; align-items:center; margin:.2rem 0 .65rem; }
+#s3 .big-month  { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(.9rem,2.2vw,1.2rem); color:rgba(201,169,110,.7); letter-spacing:.35em; text-transform:uppercase; }
+#s3 .big-day    { font-family:'Cormorant Garamond',serif; font-size:clamp(4rem,14vw,8rem); font-weight:300; color:var(--gold); line-height:.88; }
+#s3 .big-year   { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.5em; font-size:clamp(.5rem,1.2vw,.68rem); color:rgba(201,169,110,.45); text-transform:uppercase; margin-top:.2rem; }
+#s3 .details    { display:flex; align-items:stretch; border:1px solid rgba(201,169,110,.22); border-radius:6px; overflow:hidden; max-width:min(400px,88vw); width:100%; }
+#s3 .det        { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:.18rem; padding:.55rem .6rem; flex:1; }
+#s3 .det+.det   { border-left:1px solid rgba(201,169,110,.15); }
+#s3 .det-icon   { font-size:.85rem; opacity:.75; }
+#s3 .det-label  { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.24em; font-size:clamp(.32rem,.75vw,.45rem); color:rgba(201,169,110,.5); text-transform:uppercase; }
+#s3 .det-val    { font-family:'Cormorant Garamond',serif; font-style:italic; font-size:clamp(.72rem,1.7vw,.9rem); color:rgba(253,246,239,.85); text-align:center; }
+#s3 .parents-s3 { font-family:'Petit Formal Script',cursive; font-size:clamp(.9rem,2.2vw,1.2rem); color:rgba(201,169,110,.65); margin-top:.55rem; }
+.map-pin  { display:inline-flex; align-items:center; gap:.4rem; margin-top:.45rem; padding:.42rem 1rem; border-radius:50px; text-decoration:none; transition:opacity .2s; }
+.map-pin:active { opacity:.7; }
+.pin-icon { font-size:.9rem; }
+.pin-text { font-family:'Jost',sans-serif; font-weight:300; font-size:clamp(.5rem,1.1vw,.65rem); letter-spacing:.22em; text-transform:uppercase; }
+.map-s1   { border:1px solid rgba(201,169,110,.4); background:rgba(253,246,239,.15); }
+.map-s1 .pin-text { color:var(--rose); }
+.map-s3   { border:1px solid rgba(201,169,110,.3); background:rgba(201,169,110,.1); }
+.map-s3 .pin-text { color:rgba(201,169,110,.8); }
+#s3 .contact-wrap  { display:flex; flex-direction:column; align-items:center; gap:.4rem; margin-top:.6rem; }
+#s3 .contact-label { font-family:'Jost',sans-serif; font-weight:200; letter-spacing:.25em; font-size:clamp(.38rem,.9vw,.52rem); color:rgba(201,169,110,.4); text-transform:uppercase; text-align:center; }
+#s3 .contact-row   { display:flex; gap:.65rem; flex-wrap:wrap; justify-content:center; }
+#s3 .contact-btn   { display:flex; align-items:center; gap:.4rem; padding:.38rem .9rem; border-radius:50px; border:1px solid rgba(201,169,110,.3); background:rgba(201,169,110,.09); text-decoration:none; }
+#s3 .contact-btn:active { opacity:.7; }
+#s3 .c-icon { font-size:.8rem; }
+#s3 .c-info { display:flex; flex-direction:column; }
+#s3 .c-name { font-family:'Jost',sans-serif; font-weight:300; font-size:clamp(.38rem,.85vw,.5rem); letter-spacing:.2em; color:rgba(201,169,110,.7); text-transform:uppercase; }
+#s3 .c-num  { font-family:'Cormorant Garamond',serif; font-size:clamp(.72rem,1.7vw,.9rem); color:rgba(253,246,239,.85); font-style:italic; }
+
+#s3.s-entered .kk-welcome { animation:fadeUp .7s ease 0.05s both; }
+#s3.s-entered .kk-rule    { animation:scaleIn .6s ease 0.2s both; }
+#s3.s-entered .s-tag      { animation:fadeUp .6s ease 0.3s both; }
+#s3.s-entered .s-title    { animation:fadeUp .7s ease 0.45s both; }
+#s3.s-entered .s-rule     { animation:scaleIn .6s ease 0.6s both; }
+#s3.s-entered .date-block { animation:fadeUp .7s ease 0.7s both; }
+#s3.s-entered .details    { animation:fadeUp .7s ease 0.85s both; }
+#s3.s-entered .parents-s3 { animation:fadeUp .6s ease 1.0s both; }
+#s3.s-entered .map-s3     { animation:fadeUp .6s ease 1.1s both; }
+#s3.s-entered .contact-wrap{ animation:fadeUp .6s ease 1.2s both; }
+@keyframes dateGlow { 0%,100%{text-shadow:0 0 20px rgba(201,169,110,.2)} 50%{text-shadow:0 0 35px rgba(201,169,110,.7),0 0 70px rgba(201,169,110,.3)} }
+@keyframes kkPulse  { 0%,100%{filter:drop-shadow(0 2px 6px rgba(201,169,110,.2))} 50%{filter:drop-shadow(0 2px 22px rgba(201,169,110,.7))} }
+#s3.s-entered .big-day  { animation:dateGlow 2.5s ease-in-out infinite 1.5s; }
+#s3.s-entered .kk-verb  { animation:kkPulse  3.5s ease-in-out infinite 1s; }
+
+/* ══ NAV ARROWS ══ */
+.nav-arrow {
+  position:absolute; bottom:16px; z-index:50;
+  width:28px; height:28px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  background:rgba(253,246,239,.15);
+  border:1px solid rgba(201,169,110,.38);
+  backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px);
+  cursor:pointer; -webkit-tap-highlight-color:transparent;
+  transition:background .2s, opacity .3s, transform .15s;
+  user-select:none;
+}
+.nav-arrow:active { background:rgba(201,169,110,.3); transform:scale(0.9); }
+.nav-arrow svg { width:11px; height:11px; stroke:rgba(201,169,110,.9); stroke-width:2.2; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+#nav-prev { left:calc(50% - 38px); }
+#nav-next { left:calc(50% + 10px); }
+.nav-arrow.hidden { opacity:0; pointer-events:none; }
+
+
+
+
+/* ══ SPLASH / OPENING SCREEN ══ */
+#splash {
+  position: fixed; inset: 0; z-index: 999;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 18px;
+  background: radial-gradient(ellipse 90% 80% at 50% 45%, #fde9e0 0%, #fdf6ef 55%, #e8ede3 100%);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity .7s ease;
+}
+#splash.fade-out { opacity: 0; pointer-events: none; }
+
+.sp-petal { font-size: clamp(2rem, 7vw, 3.2rem); animation: spSway 3s ease-in-out infinite; }
+.sp-title {
+  font-family: 'Petit Formal Script', cursive;
+  font-size: clamp(2rem, 7vw, 3.5rem);
+  color: #4a3728; text-align: center; line-height: 1.2;
+}
+.sp-sub {
+  font-family: 'Jost', sans-serif; font-weight: 200;
+  letter-spacing: .4em; text-transform: uppercase;
+  font-size: clamp(.45rem, 1.1vw, .62rem);
+  color: rgba(90,64,53,.5);
+}
+.sp-btn {
+  margin-top: 8px;
+  padding: .6rem 2.2rem; border-radius: 50px;
+  border: 1px solid rgba(201,169,110,.55);
+  background: rgba(201,169,110,.12);
+  font-family: 'Jost', sans-serif; font-weight: 300;
+  letter-spacing: .35em; text-transform: uppercase;
+  font-size: clamp(.48rem, 1.1vw, .62rem);
+  color: #c9a96e;
+  animation: spPulse 2s ease-in-out infinite;
+}
+.sp-note { font-size: .85rem; opacity: .6; animation: spFloat 2.2s ease-in-out infinite; }
+
+@keyframes spSway  { 0%,100%{transform:rotate(-6deg) scale(1)} 50%{transform:rotate(6deg) scale(1.08)} }
+@keyframes spPulse { 0%,100%{box-shadow:0 0 0 0 rgba(201,169,110,0)} 50%{box-shadow:0 0 0 6px rgba(201,169,110,.18)} }
+@keyframes spFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+
+/* ══ RIPPLE ══ */
+.tap-ripple {
+  position:absolute; border-radius:50%;
+  width:70px; height:70px; margin:-35px;
+  background:rgba(255,255,255,.14);
+  pointer-events:none; z-index:99;
+  animation:rippleFade .45s ease-out forwards;
+}
+@keyframes rippleFade { from{transform:scale(0);opacity:1} to{transform:scale(2.8);opacity:0} }
+
+ 15%{opacity:1;transform:translate(-50%,-50%) scale(1)} 75%{opacity:1} 100%{opacity:0} }
+</style>
+</head>
+<body>
+<div id="wrapper">
+
+  <!-- STORY HEADER -->
+  <div class="story-header">
+    <div class="story-bar" id="sb1">
+      <div class="story-track"><div class="story-fill"></div></div>
+      <span class="story-lbl">Invitation</span>
+    </div>
+    <div class="story-bar" id="sb2">
+      <div class="story-track"><div class="story-fill"></div></div>
+      <span class="story-lbl">Blessing</span>
+    </div>
+    <div class="story-bar" id="sb3">
+      <div class="story-track"><div class="story-fill"></div></div>
+      <span class="story-lbl">Big Day</span>
+    </div>
+  </div>
+
+  <!-- SCENE -->
+  <div id="scene">
+    <div class="bg"></div>
+    <div class="petals">
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+      <div class="p"></div><div class="p"></div><div class="p"></div><div class="p"></div>
+    </div>
+    <div class="sparkles">
+      <div class="sk"></div><div class="sk"></div><div class="sk"></div><div class="sk"></div>
+      <div class="sk"></div><div class="sk"></div><div class="sk"></div><div class="sk"></div>
+      <div class="sk"></div><div class="sk"></div><div class="sk"></div><div class="sk"></div>
+    </div>
+    <div class="floral fl-tl">🌸</div>
+    <div class="floral fl-tr">🌸</div>
+    <div class="floral fl-bl">🌿</div>
+    <div class="floral fl-br">🌿</div>
+
+    <!-- SLIDE 1 · INVITATION -->
+    <div class="slide" id="s1">
+      <div class="arch"></div>
+      <div class="arch-inner"></div>
+      <p class="tag">You are cordially invited to</p>
+      <h1 class="headline">Baby Shower</h1>
+      <p class="name">for Preeti</p>
+      <div class="divider"></div>
+      <div class="parents">
+        <span class="p-label">Proud Parents</span>
+        <span class="p-names">Zeel &amp; Preeti Khokhariya</span>
+      </div>
+      <div class="mini-rule"></div>
+      <div class="venue">
+        <span class="v-icon">🏛️</span>
+        <span class="v-label">Venue</span>
+        <span class="v-name">Hawthorn Estates</span>
+        <span class="v-date">Sunday · July 5, 2026 · 4:30 PM</span>
+        <a class="map-pin map-s1" href="https://maps.google.com/?q=Hawthorn+Estates,+76024+Rd+33+E,+East+Selkirk,+MB&ll=50.1250867,-96.7044936" target="_blank" rel="noopener">
+          <span class="pin-icon">📍</span><span class="pin-text">Get Directions</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- SLIDE 2 · BLESSING -->
+    <div class="slide" id="s2">
+      <div class="card">
+        <p class="wtag">From Our Hearts to Yours</p>
+        <h2 class="wtitle">A Blessing &amp; Welcome</h2>
+        <p class="wtext">
+          With hearts overflowing with <em>joy and gratitude</em>, we — Zeel &amp; Preeti — invite you to share in the most beautiful chapter of our lives.<br><br>
+          Our little one is on the way, and we could not imagine celebrating this blessing without the people we love most by our side.<br><br>
+          <em>Your presence, your love, and your prayers</em> mean the world to us. May this day be filled with warmth, laughter, and memories we will all carry forever.
+        </p>
+        <span class="orn">🌸 ✦ 🌸</span>
+        <p class="signed">Zeel &amp; Preeti Khokhariya</p>
+      </div>
+    </div>
+
+    <!-- SLIDE 3 · BIG DAY -->
+    <div class="slide" id="s3">
+      <div class="bokeh">
+        <div class="bk"></div><div class="bk"></div><div class="bk"></div>
+        <div class="bk"></div><div class="bk"></div><div class="bk"></div>
+      </div>
+      <div class="kk-welcome">
+        <span class="kk-family">The Khokhariya Family</span>
+        <span class="kk-verb">Welcomes You</span>
+        <div class="kk-rule"></div>
+      </div>
+      <p class="s-tag">Save the Date</p>
+      <h2 class="s-title">The Big Day</h2>
+      <div class="s-rule"></div>
+      <div class="date-block">
+        <span class="big-month">July</span>
+        <span class="big-day">05</span>
+        <span class="big-year">2026</span>
+      </div>
+      <div class="details">
+        <div class="det">
+          <span class="det-icon"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 40 44" style="display:inline-block;vertical-align:middle;overflow:visible"><rect x="1" y="7" width="38" height="36" rx="4" ry="4" fill="rgba(30,18,10,0.35)" stroke="rgba(201,169,110,0.6)" stroke-width="1.5"/><rect x="1" y="7" width="38" height="13" rx="4" ry="4" fill="rgba(201,169,110,0.55)"/><rect x="1" y="16" width="38" height="4" fill="rgba(201,169,110,0.55)"/><line x1="12" y1="2" x2="12" y2="12" stroke="rgba(201,169,110,0.9)" stroke-width="2" stroke-linecap="round"/><line x1="28" y1="2" x2="28" y2="12" stroke="rgba(201,169,110,0.9)" stroke-width="2" stroke-linecap="round"/><text x="20" y="17" text-anchor="middle" font-family="Jost,sans-serif" font-size="6" font-weight="400" fill="#fdf6ef" letter-spacing="2">JULY</text><text x="20" y="38" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="20" font-weight="300" fill="rgba(201,169,110,0.95)">5</text></svg></span>
+          <span class="det-label">Day</span><span class="det-val">Sunday</span>
+        </div>
+        <div class="det"><span class="det-icon">🕟</span><span class="det-label">Time</span><span class="det-val">4:30 PM onwards</span></div>
+        <div class="det"><span class="det-icon">🏡</span><span class="det-label">Venue</span><span class="det-val">Hawthorn Estates, MB</span></div>
+      </div>
+      <p class="parents-s3">Zeel &amp; Preeti Khokhariya</p>
+      <a class="map-pin map-s3" href="https://maps.google.com/?q=Hawthorn+Estates,+76024+Rd+33+E,+East+Selkirk,+MB&ll=50.1250867,-96.7044936" target="_blank" rel="noopener">
+        <span class="pin-icon">📍</span>
+        <span class="pin-text">76024 Rd 33 E, East Selkirk — Get Directions</span>
+      </a>
+      <div class="contact-wrap">
+        <p class="contact-label">For more details reach us</p>
+        <div class="contact-row">
+          <a class="contact-btn" href="tel:4319980377">
+            <span class="c-icon">📞</span>
+            <span class="c-info"><span class="c-name">Zeel</span><span class="c-num">431-998-0377</span></span>
+          </a>
+          <a class="contact-btn" href="tel:4316884005">
+            <span class="c-icon">📞</span>
+            <span class="c-info"><span class="c-name">Preeti</span><span class="c-num">431-688-4005</span></span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- NAV ARROWS -->
+    <button class="nav-arrow hidden" id="nav-prev" aria-label="Previous">
+      <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+    </button>
+    <button class="nav-arrow" id="nav-next" aria-label="Next">
+      <svg viewBox="0 0 24 24"><polyline points="9 6 15 12 9 18"/></svg>
+    </button>
+
+
+
+  </div><!-- /#scene -->
+</div><!-- /#wrapper -->
+
+
+
+<!-- OPENING SPLASH — must be in DOM before script runs -->
+<div id="splash">
+  <div class="sp-petal">🌸</div>
+  <div class="sp-title">Preeti's<br>Baby Shower</div>
+  <div class="sp-sub">Khokhariya Family</div>
+  <div class="sp-btn">🎵 &nbsp; Open Invitation</div>
+  <div class="sp-note">tap anywhere to begin</div>
+</div>
+
+<script>
+(function () {
+
+  /* ── helpers ── */
+  function g(id) { return document.getElementById(id); }
+
+  /* ── Config ── */
+  var DURATIONS = [10, 18, 12];
+  var TOTAL = 3;
+
+  /* ── State ── */
+  var cur = 0, elapsed = 0, lastTs = null;
+
+  /* ── DOM — all elements exist because splash is above this script ── */
+  var slides  = [g('s1'), g('s2'), g('s3')];
+  var fills   = ['sb1','sb2','sb3'].map(function(id){ return g(id).querySelector('.story-fill'); });
+  var bars    = ['sb1','sb2','sb3'].map(function(id){ return g(id); });
+  var lbls    = bars.map(function(b){ return b.querySelector('.story-lbl'); });
+  var tracks  = bars.map(function(b){ return b.querySelector('.story-track'); });
+  var scene   = g('scene');
+  var btnPrev = g('nav-prev');
+  var btnNext = g('nav-next');
+  var splash  = g('splash');
+
+  /* ════════════════════════════════
+     SLIDE LOGIC
+  ════════════════════════════════ */
+  function showSlide(idx) {
+    idx = Math.max(0, Math.min(TOTAL - 1, idx));
+    cur = idx;
+    elapsed = 0;
+    lastTs = null;
+
+    slides.forEach(function(sl, i) {
+      sl.classList.remove('active', 's-entered');
+      if (i === cur) {
+        sl.classList.add('active');
+        // Next frame: add s-entered to trigger CSS animations
+        requestAnimationFrame(function(){ requestAnimationFrame(function(){ sl.classList.add('s-entered'); }); });
+      }
+    });
+
+    bars.forEach(function(bar, i) {
+      bar.classList.remove('sb-done','sb-active');
+      if (i < cur)  bar.classList.add('sb-done');
+      if (i === cur) bar.classList.add('sb-active');
+      fills[i].style.width   = i < cur ? '100%' : '0%';
+      fills[i].style.opacity = i <= cur ? '1' : '0';
+      lbls[i].style.color      = i === cur ? 'var(--rose)' : 'rgba(90,64,53,.38)';
+      lbls[i].style.fontWeight = i === cur ? '300' : '200';
+      tracks[i].style.background = i <= cur ? 'rgba(201,169,110,.45)' : 'rgba(201,169,110,.22)';
+    });
+
+    btnPrev.classList.toggle('hidden', cur === 0);
+    btnNext.classList.toggle('hidden', cur === TOTAL - 1);
+  }
+
+  /* ════════════════════════════════
+     PROGRESS TIMER
+  ════════════════════════════════ */
+  function tick(ts) {
+    if (lastTs !== null) {
+      elapsed += (ts - lastTs) / 1000;
+      var pct = Math.min(elapsed / DURATIONS[cur], 1);
+      fills[cur].style.width = (pct * 100) + '%';
+      if (pct >= 1 && cur < TOTAL - 1) showSlide(cur + 1);
+    }
+    lastTs = ts;
+    requestAnimationFrame(tick);
+  }
+
+  /* ════════════════════════════════
+     SPLASH + MUSIC
+     Splash IS the gesture — one tap opens the invitation AND starts music.
+     AudioContext.resume() is called directly inside the tap handler,
+     which satisfies iOS Safari's user-gesture requirement.
+  ════════════════════════════════ */
+  var AC    = window.AudioContext || window.webkitAudioContext;
+  var actx  = null;
+  var splash = document.getElementById('splash');
+
+  function openInvitation(e) {
+    if (actx) return; // already opened
+    e.preventDefault && e.preventDefault();
+
+    // Create + resume AudioContext inside this gesture — iOS unlock
+    actx = new (AC)();
+    actx.resume().then(function () {
+      playLullaby(actx);
+    });
+
+    // Dismiss splash
+    splash.classList.add('fade-out');
+    setTimeout(function () { splash.style.display = 'none'; }, 750);
+
+    // Start slides + timer
+    showSlide(0);
+    requestAnimationFrame(tick);
+  }
+
+  splash.addEventListener('touchend', openInvitation, { passive: false });
+  splash.addEventListener('click',    openInvitation);
+
+  function playLullaby(ctx) {
+    if (!ctx) return;
+
+    // ── Shared reverb convolver (makes everything sound like a music box in a room) ──
+    var reverbLen = ctx.sampleRate * 2.2;
+    var revBuf    = ctx.createBuffer(2, reverbLen, ctx.sampleRate);
+    for (var ch = 0; ch < 2; ch++) {
+      var d = revBuf.getChannelData(ch);
+      for (var i = 0; i < reverbLen; i++) {
+        d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / reverbLen, 2.8);
+      }
+    }
+    var reverb      = ctx.createConvolver();
+    reverb.buffer   = revBuf;
+    var reverbGain  = ctx.createGain();
+    reverbGain.gain.value = 0.38;
+    reverb.connect(reverbGain);
+    reverbGain.connect(ctx.destination);
+
+    // Master output chain
+    var master = ctx.createGain();
+    master.gain.value = 0.72;
+    master.connect(ctx.destination);
+    master.connect(reverb);
+
+    // ── Music box tone: sine + detuned triangle layered ──
+    function midiToHz(m) { return 440 * Math.pow(2, (m - 69) / 12); }
+
+    function musicBoxNote(freq, startT, dur, vol) {
+      if (!freq || freq <= 0) return;
+      vol = vol || 0.28;
+
+      // Layer 1: clear sine (bell body)
+      var osc1  = ctx.createOscillator();
+      var env1  = ctx.createGain();
+      osc1.type = 'sine';
+      osc1.frequency.value = freq;
+      // Sharp pluck attack, exponential decay
+      env1.gain.setValueAtTime(0.001, startT);
+      env1.gain.linearRampToValueAtTime(vol, startT + 0.012);
+      env1.gain.exponentialRampToValueAtTime(vol * 0.35, startT + 0.18);
+      env1.gain.exponentialRampToValueAtTime(0.0001, startT + Math.min(dur + 0.3, 2.8));
+      osc1.connect(env1); env1.connect(master);
+      osc1.start(startT); osc1.stop(startT + Math.min(dur + 0.4, 3.0));
+
+      // Layer 2: triangle an octave up (adds sparkle / overtone)
+      var osc2  = ctx.createOscillator();
+      var env2  = ctx.createGain();
+      osc2.type = 'triangle';
+      osc2.frequency.value = freq * 2.001; // slight detune for shimmer
+      env2.gain.setValueAtTime(0.001, startT);
+      env2.gain.linearRampToValueAtTime(vol * 0.18, startT + 0.01);
+      env2.gain.exponentialRampToValueAtTime(0.0001, startT + Math.min(dur * 0.5, 1.2));
+      osc2.connect(env2); env2.connect(master);
+      osc2.start(startT); osc2.stop(startT + Math.min(dur * 0.6, 1.4));
+
+      // Layer 3: sub sine two octaves down (warmth / body)
+      var osc3  = ctx.createOscillator();
+      var env3  = ctx.createGain();
+      osc3.type = 'sine';
+      osc3.frequency.value = freq * 0.5;
+      env3.gain.setValueAtTime(0.001, startT);
+      env3.gain.linearRampToValueAtTime(vol * 0.12, startT + 0.02);
+      env3.gain.exponentialRampToValueAtTime(0.0001, startT + Math.min(dur * 0.6, 1.0));
+      osc3.connect(env3); env3.connect(master);
+      osc3.start(startT); osc3.stop(startT + Math.min(dur * 0.7, 1.1));
+    }
+
+    // Soft harp-like chord strum
+    function harpChord(notes, startT, dur, vol) {
+      vol = vol || 0.09;
+      notes.forEach(function(midi, i) {
+        var freq = midiToHz(midi);
+        var t    = startT + i * 0.055; // gentle strum delay
+        var osc  = ctx.createOscillator();
+        var env  = ctx.createGain();
+        osc.type = 'sine';
+        osc.frequency.value = freq;
+        env.gain.setValueAtTime(0.001, t);
+        env.gain.linearRampToValueAtTime(vol, t + 0.03);
+        env.gain.exponentialRampToValueAtTime(vol * 0.4, t + 0.4);
+        env.gain.exponentialRampToValueAtTime(0.0001, t + Math.min(dur, 2.2));
+        osc.connect(env); env.connect(master);
+        osc.start(t); osc.stop(t + Math.min(dur + 0.1, 2.4));
+      });
+    }
+
+    // ── Song: "Sweet Lullaby" — original gentle melody in C major ──
+    // Format: [midi_note, beats]  (null = rest)   BPM=54, 3/4 waltz
+    var BPM  = 54;
+    var B    = 60 / BPM; // seconds per beat
+
+    var melody = [
+      // Phrase A — gentle rising
+      [72,1],[74,0.5],[72,0.5],[69,1.5],[null,0.5],
+      [71,1],[72,0.5],[71,0.5],[67,1.5],[null,0.5],
+      [69,1],[71,0.5],[72,0.5],[74,1],[72,0.5],[71,0.5],
+      [72,3],
+      // Phrase B — tender middle
+      [76,1],[74,0.5],[72,0.5],[74,1.5],[null,0.5],
+      [72,1],[71,0.5],[69,0.5],[71,1.5],[null,0.5],
+      [69,1],[67,0.5],[69,0.5],[71,1],[69,0.5],[67,0.5],
+      [67,3],
+      // Phrase C — blossoming
+      [72,0.5],[74,0.5],[76,1],[77,0.5],[76,0.5],
+      [74,1.5],[72,0.5],[74,1],
+      [72,1],[71,0.5],[69,0.5],[71,1.5],[null,0.5],
+      [72,3],
+      // Phrase D — soft close
+      [71,1],[72,0.5],[71,0.5],[69,1.5],[null,0.5],
+      [67,1],[69,0.5],[71,0.5],[72,1.5],[null,0.5],
+      [69,1],[67,0.5],[65,0.5],[64,1],[null,0.5],[null,0.5],
+      [60,3],
+    ];
+
+    // Chord progression — [bass, mid1, mid2] per bar
+    var prog = [
+      [48,52,55],[48,52,55],[45,48,52],[45,48,52],  // C  C  Am Am
+      [43,47,50],[43,47,50],[48,52,55],[48,52,55],  // G  G  C  C
+      [45,48,52],[45,48,52],[47,50,53],[47,50,53],  // Am Am  Em Em  (approx)
+      [48,52,55],[48,52,55],[43,47,50],[43,47,50],  // C  C  G  G
+    ];
+
+    var totalBeats = melody.reduce(function(s,n){ return s + n[1]; }, 0);
+    var totalSecs  = totalBeats * B;
+
+    function schedule(offset) {
+      offset = offset || 0;
+      var t = ctx.currentTime + 0.08 + offset;
+
+      // Melody
+      melody.forEach(function(n) {
+        var midi = n[0], dur = n[1] * B;
+        if (midi) musicBoxNote(midiToHz(midi), t, dur, 0.3);
+        t += dur;
+      });
+
+      // Chords — one strum per bar (3 beats)
+      var tc = ctx.currentTime + 0.08 + offset;
+      for (var i = 0; i < Math.ceil(totalBeats / 3); i++) {
+        harpChord(prog[i % prog.length], tc, 3 * B * 0.85, 0.11);
+        tc += 3 * B;
+      }
+    }
+
+    // Schedule first pass + loop
+    schedule(0);
+    setTimeout(function loop() {
+      schedule(0);
+      setTimeout(loop, (totalSecs - 0.5) * 1000);
+    }, (totalSecs - 0.5) * 1000);
+  }
+
+  /* ════════════════════════════════
+     TOUCH / SWIPE / CLICK NAV
+  ════════════════════════════════ */
+  var tx0, ty0, tt0;
+
+  scene.addEventListener('touchstart', function(e) {
+    tx0 = e.touches[0].clientX;
+    ty0 = e.touches[0].clientY;
+    tt0 = Date.now();
+  }, { passive: true });
+
+  scene.addEventListener('touchend', function(e) {
+    if (e.target.closest('a') || e.target.closest('button')) return;
+    var dx  = e.changedTouches[0].clientX - tx0;
+    var dy  = e.changedTouches[0].clientY - ty0;
+    var dt  = Date.now() - tt0;
+    var ex  = e.changedTouches[0].clientX;
+    var ey  = e.changedTouches[0].clientY;
+    var W   = window.innerWidth;
+
+    if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      // Horizontal swipe
+      ripple(ex, ey);
+      showSlide(dx < 0 ? cur + 1 : cur - 1);
+    } else if (Math.abs(dx) < 12 && Math.abs(dy) < 12 && dt < 280) {
+      // Tap — only outer edges navigate; centre is free for scroll/links
+      if (ex < W * 0.25)       { ripple(ex, ey); showSlide(cur - 1); }
+      else if (ex > W * 0.75)  { ripple(ex, ey); showSlide(cur + 1); }
+    }
+    e.preventDefault();
+  }, { passive: false });
+
+  // Arrow buttons
+  btnPrev.addEventListener('click', function(e) { e.stopPropagation(); showSlide(cur - 1); });
+  btnNext.addEventListener('click', function(e) { e.stopPropagation(); showSlide(cur + 1); });
+
+  // Keyboard
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') showSlide(cur + 1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')   showSlide(cur - 1);
+  });
+
+  // Desktop click nav
+  scene.addEventListener('click', function(e) {
+    if (e.target.closest('a') || e.target.closest('button')) return;
+    var W = window.innerWidth;
+    ripple(e.clientX, e.clientY);
+    if (e.clientX < W * 0.25)      showSlide(cur - 1);
+    else if (e.clientX > W * 0.75) showSlide(cur + 1);
+  });
+
+  function ripple(x, y) {
+    var r = document.createElement('div');
+    r.className = 'tap-ripple';
+    r.style.left = x + 'px'; r.style.top = y + 'px';
+    scene.appendChild(r);
+    r.addEventListener('animationend', function(){ r.remove(); });
+  }
+
+  /* INIT */
+  slides[0].classList.add('active'); // visible behind splash
+
+})();
+</script>
+
+</body>
+</html>
